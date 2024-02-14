@@ -1,0 +1,40 @@
+.music-list {
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.music-list li {
+  display: flex;
+  justify-content: space-around;
+  line-height: 80px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+.music-list li a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width:330px;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.music-list li:nth-child(1){
+  font-weight: 900;
+  font-size: 24px;
+}
+
+
+.music-list li a:hover {
+ text-decoration: underline;
+}
+.music-list li:nth-child(1) a:hover{
+  text-decoration:none;
+  cursor: default;
+}

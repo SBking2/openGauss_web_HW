@@ -1,0 +1,26 @@
+.infor {
+  padding-top: 50px;
+  height: 200px;
+}
+
+h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.infor-con {
+  display: flex;
+  justify-content: space-around;
+  line-height: 40px;
+}
+
+.infor-con button {
+  width: 100px;
+}
+
+
+.starlist {
+  height: 600px;
+  padding-top: 20px;
+  background-color: #fff;
+}

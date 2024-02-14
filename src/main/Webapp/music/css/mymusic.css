@@ -1,0 +1,53 @@
+.infor {
+  padding-top: 50px;
+  height: 200px;
+}
+
+h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.infor-con {
+  display: flex;
+  justify-content: space-around;
+  line-height: 40px;
+}
+
+.infor-con button {
+  width: 100px;
+}
+
+
+.starlist {
+  height: 600px;
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+.change-con {
+  height: 80px;
+  margin-top: 100px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+  line-height: 80px;
+  text-align: center;
+}
+
+.change-con input {
+  margin-left: 8px;
+  padding: 5px;
+}
+
+.acc {
+  margin-top:50px;
+  text-align: center;
+}
+
+.acc form {
+  height: 50px;
+}
+
+.acc form button {
+  padding: 5px;
+}

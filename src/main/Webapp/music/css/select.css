@@ -1,0 +1,35 @@
+.select-list {
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.select-list li {
+  display: flex;
+  justify-content: start;
+  line-height: 80px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.select-list li span {
+  width: 100px;
+}
+.select-list li b{
+  width: 130px;
+}
+.btn{
+ display: flex;
+  justify-content: center;
+}
+.btn input{
+  padding: 5px;
+  margin: 30px 10px;
+}

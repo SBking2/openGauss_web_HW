@@ -1,0 +1,93 @@
+10-Jan-2024 10:02:54.271 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.97
+10-Jan-2024 10:02:54.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Dec 7 2023 17:57:18 UTC
+10-Jan-2024 10:02:54.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.97.0
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_331\jre
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_331-b09
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\conf\logging.properties
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\temp
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.2.39]。
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+10-Jan-2024 10:02:54.305 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+10-Jan-2024 10:02:54.341 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.11 19 Sep 2023]
+10-Jan-2024 10:02:54.604 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+10-Jan-2024 10:02:54.620 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 823 ms
+10-Jan-2024 10:02:54.697 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+10-Jan-2024 10:02:54.697 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.97]
+10-Jan-2024 10:02:54.743 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\test_hello.war]
+10-Jan-2024 10:02:54.981 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+10-Jan-2024 10:02:55.483 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[454]毫秒。
+10-Jan-2024 10:02:55.503 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\test_hello.war]的部署已在[760]ms内完成
+10-Jan-2024 10:02:55.513 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\Web.war]
+10-Jan-2024 10:02:55.583 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+10-Jan-2024 10:02:55.585 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\Web.war]的部署已在[72]ms内完成
+10-Jan-2024 10:02:55.593 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\docs]
+10-Jan-2024 10:02:55.616 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\docs]的部署已在[23]毫秒内完成
+10-Jan-2024 10:02:55.616 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\examples]
+10-Jan-2024 10:02:56.282 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\examples]的部署已在[666]毫秒内完成
+10-Jan-2024 10:02:56.285 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\host-manager]
+10-Jan-2024 10:02:56.313 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\host-manager]的部署已在[28]毫秒内完成
+10-Jan-2024 10:02:56.313 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\manager]
+10-Jan-2024 10:02:56.340 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\manager]的部署已在[27]毫秒内完成
+10-Jan-2024 10:02:56.340 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\ROOT]
+10-Jan-2024 10:02:56.354 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\ROOT]的部署已在[14]毫秒内完成
+10-Jan-2024 10:02:56.361 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+10-Jan-2024 10:02:56.379 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1752 ms
+10-Jan-2024 12:54:29.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.97
+10-Jan-2024 12:54:29.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Dec 7 2023 17:57:18 UTC
+10-Jan-2024 12:54:29.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.97.0
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_331\jre
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_331-b09
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\conf\logging.properties
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\temp
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.2.39]。
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+10-Jan-2024 12:54:29.198 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+10-Jan-2024 12:54:29.224 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.11 19 Sep 2023]
+10-Jan-2024 12:54:29.371 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+10-Jan-2024 12:54:29.395 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 569 ms
+10-Jan-2024 12:54:29.469 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+10-Jan-2024 12:54:29.474 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.97]
+10-Jan-2024 12:54:29.495 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\test_hello.war]
+10-Jan-2024 12:54:29.750 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+10-Jan-2024 12:54:30.307 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[522]毫秒。
+10-Jan-2024 12:54:30.326 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\test_hello.war]的部署已在[831]ms内完成
+10-Jan-2024 12:54:30.326 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\Web.war]
+10-Jan-2024 12:54:30.342 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\Web],它的最后修改时间与关联的WAR不一致.它将被删除.
+10-Jan-2024 12:54:30.557 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+10-Jan-2024 12:54:30.557 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\Web.war]的部署已在[231]ms内完成
+10-Jan-2024 12:54:30.557 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\docs]
+10-Jan-2024 12:54:30.574 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\docs]的部署已在[17]毫秒内完成
+10-Jan-2024 12:54:30.574 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\examples]
+10-Jan-2024 12:54:31.194 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\examples]的部署已在[620]毫秒内完成
+10-Jan-2024 12:54:31.194 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\host-manager]
+10-Jan-2024 12:54:31.226 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\host-manager]的部署已在[32]毫秒内完成
+10-Jan-2024 12:54:31.226 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\manager]
+10-Jan-2024 12:54:31.242 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\manager]的部署已在[16]毫秒内完成
+10-Jan-2024 12:54:31.242 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\ROOT]
+10-Jan-2024 12:54:31.257 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\OpenGaussProject\Open\OpenGaussWeb\TomCat\apache-tomcat-8.5.97\webapps\ROOT]的部署已在[15]毫秒内完成
+10-Jan-2024 12:54:31.257 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+10-Jan-2024 12:54:31.277 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1882 ms

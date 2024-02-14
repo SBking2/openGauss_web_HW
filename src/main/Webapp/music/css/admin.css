@@ -1,0 +1,60 @@
+.content {
+  width: 700px;
+  /* border: 1px solid #ccc; */
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 30px;
+  line-height: 35px;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 0 20px #e7e4e4;
+}
+
+.w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.add {
+  float: right;
+  font-size: 18px;
+  margin-top: 30px;
+  color: #ccc;
+  font-weight: normal;
+}
+
+.content tbody {
+  color: #707070;
+}
+
+.content a {
+  margin-left: 10px;
+  color: #ccc;
+}
+
+a:hover {
+  color: #707070;
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  height: 30px;
+  width: 230px;
+  line-height: 30px;
+  margin-left: 150px;
+}
+
+.item {
+  line-height: 60px;
+}
+
+.p30 {
+  padding: 30px 0;
+}
+
+input[type="submit"] {
+  margin-top: 50px;
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+}

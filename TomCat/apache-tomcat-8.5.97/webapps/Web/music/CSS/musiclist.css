@@ -1,0 +1,32 @@
+/* .music-list {
+  padding-top: 100px;
+  padding-left: 200px;
+} */
+h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.music-list li {
+  width: 800px;
+  line-height: 80px;
+  /* font-size: 24px; */
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.music-list li a {
+  color: #ccc;
+  margin-left: 20px;
+}
+
+.music-list li a:hover {
+  color: #333;
+}
+
+.music-list li span {
+  padding-left: 50px;
+  margin-right: 500px;
+
+}
